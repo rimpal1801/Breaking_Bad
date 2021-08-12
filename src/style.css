@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.heading {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  text-align: center;
+  font-size: 60px;
+  line-height: 90px;
+  background: url("https://th.bing.com/th/id/R.25f0f90b9f5d9f519d72c568f2121226?rik=p01tPbsxxNp6PQ&riu=http%3a%2f%2fwww.hdwallpaper.nu%2fwp-content%2fuploads%2f2015%2f02%2fbreaking_bad_walter_white_hd_wallpaper.jpg&ehk=s3g2H8FFWfHOINF%2fL8H4v2z4QLvJ5SG9JAMHHgIY4yQ%3d&risl=&pid=ImgRaw&r=0");
+  overflow: hidden;
+  color: black;
+}
+
+header {
+  display: flex;
+  padding: 1rem;
+  color: rgb(162, 177, 34);
+  justify-content: flex-end;
+}
+.search {
+  display: flex;
+  border: 5px solid #d6b80c;
+  border-radius: 80px;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+}
+
+.search::placeholder {
+  color: #cabe12;
+}
+
+.search:focus {
+  background-color: #ddf38b;
+  outline: none;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #bc8f8f;
+}
+.book {
+  position: relative;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  background-color: #d8bfd8;
+}
+.book img {
+  border-radius: 40%;
+}
+
+nav {
+  background-image: url("https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg");
+  padding: 50px 0 20px;
+}
+
+.pagination a {
+  color: black;
+  background-color: #71b4b4;
+  padding: 10px 15px;
+  border: 2px solid rgba(2, 48, 44, 0.658);
+  font-size: 20px;
+}
+.pagination a:hover {
+  background-color: #c8d4d4;
+}
+@media screen and (max-width: 300px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+  @media screen and (max-width: 500px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+}
+.btn {
+  background: #71b4b4;
+  background-image: -webkit-linear-gradient(top, #71b4b4, #71b4b4);
+  background-image: -moz-linear-gradient(top, #71b4b4, #71b4b4);
+  background-image: -ms-linear-gradient(top, #71b4b4, #71b4b4);
+  background-image: -o-linear-gradient(top, #71b4b4, #71b4b4);
+  background-image: -webkit-gradient(to bottom, #71b4b4, #71b4b4);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: Segoe Script;
+  font-size: 41px;
+  font-weight: 700;
+  padding: 0;
+  -webkit-box-shadow: 1px 0 20px 0 #000000;
+  -moz-box-shadow: 1px 0 20px 0 #000000;
+  box-shadow: 1px 0 20px 0 #000000;
+  text-shadow: 0 0 4px #000000;
+  border: solid #337fed 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.contact-me {
+  background-image: url("https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg");
+  padding: 50px 0 20px;
+}
+.btn:hover {
+  border: solid #63c7e6 1px;
+  background: #63c7e6;
+  background-image: -webkit-linear-gradient(top, #63c7e6, #63c7e6);
+  background-image: -moz-linear-gradient(top, #63c7e6, #63c7e6);
+  background-image: -ms-linear-gradient(top, #63c7e6, #63c7e6);
+  background-image: -o-linear-gradient(top, #63c7e6, #63c7e6);
+  background-image: -webkit-gradient(to bottom, #63c7e6, #63c7e6);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.footer-link {
+  font-family: papyrus;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #fa9900;
+}
